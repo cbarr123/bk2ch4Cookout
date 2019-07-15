@@ -37,7 +37,7 @@ function grill (currentObject) {
     // Put the cooked food into the appropriate array
     cookedFood.push(currentObject);
 };
-
+//--------------------
 for (i = 0; i < foods.length; i++) {
     grill(foods[i]);
     console.log(cookedFood);
