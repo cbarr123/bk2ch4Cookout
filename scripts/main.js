@@ -42,3 +42,8 @@ for (i = 0; i < foods.length; i++) {
     grill(foods[i]);
     console.log(cookedFood);
 }
+
+foods.forEach(currentFood => {
+	grill(currentFood);
+});
+console.log(cookedFood)
